@@ -75,7 +75,7 @@ h2.title {
     line-height: 28px;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn  {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -92,6 +92,10 @@ h2.title {
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
+}
+
+.gift .gift_btn {
+    margin-top: 53px;
 }
 
 .more {
@@ -248,9 +252,108 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
-
-    
 }
+
+.gift {
+    min-height: 631px;
+    padding: 88px 0 88px 0;
+    background-color: #EFEFEF;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_descr {
+    margin-top: 45px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px; 
+}
+
+.vebinar {
+    min-height: 514px;
+    padding-top: 89px;
+}
+.vebinar .vebinar_img {
+    display: block;
+    margin: 0 auto;
+}
+.vebinar .vebinar_title {
+    margin-top: 36px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.vebinar .vebinar_date {
+    margin-top: 36px;
+    color: #299CBD;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.vebinar .vebinar_descr {
+    margin-top: 24px;
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+}
+.footer {
+    min-height: 169px;
+    padding-top: 57px;
+    background-color: #1A1A1A;
+}
+
+.footer .footer_wrapper {
+    display: flex;
+    width: 340px;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+   
+}
+
+.footer .footer_wrapper .footer_link {
+    color: #888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.footer .footer_wrapper .footer_divider {
+    
+    background-color: #888;
+    height: 16px;
+    width: 2px;
+}
+
+.footer .footer_tel {
+    color: #888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+  
+}
+
+.footer .footer_divider_r {
+    color: #888;
+    height: 10px;
+    width: 2px;  
+}
+
 
 
 
